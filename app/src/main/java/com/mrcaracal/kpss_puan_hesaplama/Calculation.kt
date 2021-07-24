@@ -75,6 +75,7 @@ class Calculation {
         val ahmet_reis = "%.2f".format(1.11)
         //ahmet1
         //şahin2
+        //hayro3
         
         
         val b_asp_gk_gy = b_spuan_gk * (0.5) + b_spuan_gy * (0.5)
