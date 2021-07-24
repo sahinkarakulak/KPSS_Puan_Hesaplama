@@ -74,11 +74,14 @@ class Calculation {
         val k_asp_gk_gy2 = "%.2f".format(1.11)
         val b_asp_gk_gy = b_spuan_gk * (0.5) + b_spuan_gy * (0.5)
 
-        val tahmini_s_sapma_ort_gk_gy = 8.125
+        val tahmini_s_sapma_ort_gk_gy = 8.525
         val tahmini_asp_ort_gk_gy = 49.992
+        
 
         val p3_puan = 70 + ((30 * (2 * (k_asp_gk_gy - tahmini_asp_ort_gk_gy) - tahmini_s_sapma_ort_gk_gy)) /
-                (2 * (b_asp_gk_gy - tahmini_asp_ort_gk_gy) - tahmini_s_sapma_ort_gk_gy))
+                (2 * (86.160 - 50) - tahmini_s_sapma_ort_gk_gy))
+
+        // $scope.kpssp3 = (70 + 30*((2*($scope.ap3-49.992))-8.525)/ ((2*(86.150-50))-8.525)).toFixed(3);
 
         return p3_puan
     }
