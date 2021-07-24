@@ -74,7 +74,8 @@ class Calculation {
 
         val tahmini_s_sapma_ort_gk_gy = 8.525
         val tahmini_asp_ort_gk_gy = 49.992
-        
+
+
 
         val p3_puan = 70 + ((30 * (2 * (k_asp_gk_gy - tahmini_asp_ort_gk_gy) - tahmini_s_sapma_ort_gk_gy)) /
                 (2 * (86.160 - 50) - tahmini_s_sapma_ort_gk_gy))
