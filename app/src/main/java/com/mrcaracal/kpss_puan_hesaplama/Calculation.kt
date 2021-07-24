@@ -66,6 +66,7 @@ class Calculation {
 
         val k_spuan_gk = ((k_net_gk - o_net_gk) / s_sapma_gk) * 10 + 50
         val k_spuan_gy = ((k_net_gy - o_net_gy) / s_sapma_gy) * 10 + 50
+        val ahmet = "%.2f".format(1.11)
         val b_spuan_gk = ((tb_net_gk - o_net_gk) / s_sapma_gk) * 10 + 50
         val b_spuan_gy = ((tb_net_gy - o_net_gy) / s_sapma_gy) * 10 + 50
 
