@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(view)
 
         val calc = Calculation()
+        val calc1 = Calculation()
         var status = "memur"
         var p3_puan: Double = 0.0
         var p10_puan: Double = 0.0
