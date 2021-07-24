@@ -72,18 +72,12 @@ class Calculation {
         val b_spuan_gy = ((tb_net_gy - o_net_gy) / s_sapma_gy) * 10 + 50
 
         val k_asp_gk_gy = k_spuan_gk * (0.5) + k_spuan_gy * (0.5)
-        val ahmet_reis = "%.2f".format(1.11)
-        //ahmet1
-        //şahin2
-        //hayro3
-        
-        
+        //val ahmet_reis = "%.2f".format(1.11)
+
         val b_asp_gk_gy = b_spuan_gk * (0.5) + b_spuan_gy * (0.5)
 
         val tahmini_s_sapma_ort_gk_gy = 8.525
         val tahmini_asp_ort_gk_gy = 49.992
-
-
 
         val p3_puan = 70 + ((30 * (2 * (k_asp_gk_gy - tahmini_asp_ort_gk_gy) - tahmini_s_sapma_ort_gk_gy)) /
                 (2 * (86.160 - 50) - tahmini_s_sapma_ort_gk_gy))
