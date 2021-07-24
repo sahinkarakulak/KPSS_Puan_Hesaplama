@@ -24,7 +24,7 @@ class Calculation {
 
     // 2018 verileri
     o_net_gk = 19,187
-    o_net_gk = 23,506
+    o_net_gy = 23,506
 
     k_spuan_gk = ((k_net_gk - o_net_gk)/s_sapma_gk) * 10 + 50
     k_spuan_gy = ((k_net_gy - o_net_gy)/s_sapma_gy) * 10 + 50
@@ -36,7 +36,7 @@ class Calculation {
     kisi_asp_gk_gy = k_spuan_gk * (0,5) + k_spuan_gy * (0,5)
 
     // + Eğitim girenler için
-    k_spuan_gk * (0,3) + k_spuan_gy * (0,3) + k_spuan_egitim(0,4)
+    k_spuan_gk * (0,3) + k_spuan_gy * (0,3) + k_spuan_egitim * (0,4)
 
     // + Alan girenler için
     k_spuan_gk * (0,15) + k_spuan_gy * (0,15) + k_spuan_egitim * (0,2) + k_spuan_alan * (0,5)
@@ -66,6 +66,7 @@ class Calculation {
 
         val k_spuan_gk = ((k_net_gk - o_net_gk) / s_sapma_gk) * 10 + 50
         val k_spuan_gy = ((k_net_gy - o_net_gy) / s_sapma_gy) * 10 + 50
+
         val b_spuan_gk = ((tb_net_gk - o_net_gk) / s_sapma_gk) * 10 + 50
         val b_spuan_gy = ((tb_net_gy - o_net_gy) / s_sapma_gy) * 10 + 50
 
