@@ -67,11 +67,15 @@ class Calculation {
         val k_spuan_gk = ((k_net_gk - o_net_gk) / s_sapma_gk) * 10 + 50
         val k_spuan_gy = ((k_net_gy - o_net_gy) / s_sapma_gy) * 10 + 50
 
+
         val b_spuan_gk = ((tb_net_gk - o_net_gk) / s_sapma_gk) * 10 + 50
         val b_spuan_gy = ((tb_net_gy - o_net_gy) / s_sapma_gy) * 10 + 50
 
         val k_asp_gk_gy = k_spuan_gk * (0.5) + k_spuan_gy * (0.5)
-        val k_asp_gk_gy2 = "%.2f".format(1.11)
+        val ahmet_reis = "%.2f".format(1.11)
+        //ahmet1
+        //şahin2
+        
         
         val b_asp_gk_gy = b_spuan_gk * (0.5) + b_spuan_gy * (0.5)
 
