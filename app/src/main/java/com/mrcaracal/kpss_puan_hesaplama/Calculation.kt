@@ -71,6 +71,7 @@ class Calculation {
         val b_spuan_gy = ((tb_net_gy - o_net_gy) / s_sapma_gy) * 10 + 50
 
         val k_asp_gk_gy = k_spuan_gk * (0.5) + k_spuan_gy * (0.5)
+        val k_asp_gk_gy2 = "%.2f".format(1.11)
         val b_asp_gk_gy = b_spuan_gk * (0.5) + b_spuan_gy * (0.5)
 
         val tahmini_s_sapma_ort_gk_gy = 8.125
